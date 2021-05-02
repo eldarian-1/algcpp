@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eldarian/CLionProjects/algcpp/Algorithm.h
+string
+-
+cstdio
+-
+
+/home/eldarian/CLionProjects/algcpp/main.cpp
+sorts/InsertSort.h
+/home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
+sorts/MergeSort.h
+/home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
+
+/home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
+Sort.h
+/home/eldarian/CLionProjects/algcpp/sorts/Sort.h
+cstdio
+/home/eldarian/CLionProjects/algcpp/sorts/cstdio
+
+/home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
+
+/home/eldarian/CLionProjects/algcpp/sorts/Sort.h
+cstdlib
+-
+cstdio
+-
+../Algorithm.h
+/home/eldarian/CLionProjects/algcpp/Algorithm.h
+
