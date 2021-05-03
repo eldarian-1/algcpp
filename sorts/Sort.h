@@ -11,47 +11,38 @@
 #include "../Algorithm.h"
 
 struct SortArg {
-    int size, max;
-    SortArg(int size, int max) {
+    int* array;
+    int size;
+
+    SortArg(int* arr, int n) {
+        array = arr;
+        size = n;
+    }
+
+    SortArg(int size, int min, int max) {
         this->size = size;
-        this->max = max;
+        array = new int[size];
+        int diff = max - min + 1;
+        for(int i = 0; i < size; ++i)
+            array[i] = std::rand() % diff + min;
     }
 };
 
 class Sort : public Algorithm<SortArg> {
-private:
-    int n;
-    int *arr;
-
 protected:
     virtual void sort(int *arr, int n) = 0;
 
-    void createArray(SortArg arg) {
-        n = arg.size;
-        arr = new int[n];
-        for(int i = 0; i < n; ++i)
-            arr[i] = std::rand() % arg.max;
-    }
-
-    void printArray() {
-        for(int i = 0; i < n; ++i)
-            printf("%d ", arr[i]);
+    void printArray(SortArg arg) {
+        for(int i = 0; i < arg.size; ++i)
+            printf("%d ", arg.array[i]);
         printf("\n");
     }
 
-    void cleanArray() {
-        n = 0;
-        delete[] arr;
+    void run(SortArg arg) {
+        printArray(arg);
+        sort(arg.array, arg.size);
+        printArray(arg);
     }
-
-    void run(SortArg arg) override {
-        createArray(arg);
-        printArray();
-        sort(arr, n);
-        printArray();
-        cleanArray();
-    }
-
 };
 
 #endif //ALGCPP_SORT_H

@@ -29,6 +29,7 @@ protected:
             arr[key] = temp;
         }
     }
+
 };
 
 #endif //ALGCPP_INSERTSORT_H

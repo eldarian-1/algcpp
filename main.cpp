@@ -2,7 +2,7 @@
 #include "sorts/MergeSort.h"
 
 int main() {
-    InsertSort().execute(SortArg(1000, 10000));
-    MergeSort().execute(SortArg(1000, 10000));
+    InsertSort().execute(SortArg(10, -100, 100));
+    MergeSort().execute(SortArg(10, -100, 100));
     return 0;
 }
