@@ -5,9 +5,10 @@
 #ifndef ALGCPP_MERGESORT_H
 #define ALGCPP_MERGESORT_H
 
-class MergeSort : public Sort {
+template<class T>
+class MergeSort : public Sort<T> {
 private:
-    int* merge_sort(int *up, int *down, unsigned int left, unsigned int right)
+    T* merge_sort(T *up, T *down, unsigned int left, unsigned int right)
     {
         if (left == right)
         {
@@ -18,11 +19,11 @@ private:
         unsigned int middle = (left + right) / 2;
 
         // разделяй и сортируй
-        int *l_buff = merge_sort(up, down, left, middle);
-        int *r_buff = merge_sort(up, down, middle + 1, right);
+        T *l_buff = merge_sort(up, down, left, middle);
+        T *r_buff = merge_sort(up, down, middle + 1, right);
 
         // слияние двух отсортированных половин
-        int *target = l_buff == up ? down : up;
+        T *target = l_buff == up ? down : up;
 
         unsigned int l_cur = left, r_cur = middle + 1;
         for (unsigned int i = left; i <= right; i++)
@@ -56,12 +57,14 @@ private:
 
 
 protected:
-    std::string name() override {
+    const char *name() override {
         return "MergeSort";
     }
 
-    void sort(int *arr, int n) override {
-        merge_sort(arr, new int[n], 0, n - 1);
+    void sort(T *arr, int n) override {
+        T *temp = new T[n];
+        merge_sort(arr, temp, 0, n - 1);
+        delete[] temp;
     }
 };
 

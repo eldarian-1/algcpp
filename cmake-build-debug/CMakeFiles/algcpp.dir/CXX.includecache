@@ -7,16 +7,48 @@
 #IncludeRegexTransform: 
 
 /home/eldarian/CLionProjects/algcpp/Algorithm.h
-string
--
 cstdio
 -
 
+/home/eldarian/CLionProjects/algcpp/Array.h
+iostream
+-
+randomizers/Randomizer.h
+/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
+
+/home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+
+/home/eldarian/CLionProjects/algcpp/automatas/Conductor.h
+Automata.h
+/home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+
+/home/eldarian/CLionProjects/algcpp/automatas/Even.h
+Automata.h
+/home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+
 /home/eldarian/CLionProjects/algcpp/main.cpp
+cstdio
+-
+Array.h
+/home/eldarian/CLionProjects/algcpp/Array.h
+randomizers/IntRandomizer.h
+/home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h
 sorts/InsertSort.h
 /home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
 sorts/MergeSort.h
 /home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
+automatas/Conductor.h
+/home/eldarian/CLionProjects/algcpp/automatas/Conductor.h
+automatas/Even.h
+/home/eldarian/CLionProjects/algcpp/automatas/Even.h
+
+/home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h
+Randomizer.h
+/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
+cstdlib
+-
+
+/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
 
 /home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
 Sort.h
@@ -27,10 +59,8 @@ cstdio
 /home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
 
 /home/eldarian/CLionProjects/algcpp/sorts/Sort.h
-cstdlib
--
-cstdio
--
 ../Algorithm.h
 /home/eldarian/CLionProjects/algcpp/Algorithm.h
+../Array.h
+/home/eldarian/CLionProjects/algcpp/Array.h
 

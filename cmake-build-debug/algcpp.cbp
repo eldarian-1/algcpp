@@ -85,7 +85,25 @@
 		<Unit filename="/home/eldarian/CLionProjects/algcpp/Algorithm.h">
 			<Option target="algcpp"/>
 		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/Array.h">
+			<Option target="algcpp"/>
+		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Automata.h">
+			<Option target="algcpp"/>
+		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Conductor.h">
+			<Option target="algcpp"/>
+		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Even.h">
+			<Option target="algcpp"/>
+		</Unit>
 		<Unit filename="/home/eldarian/CLionProjects/algcpp/main.cpp">
+			<Option target="algcpp"/>
+		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h">
+			<Option target="algcpp"/>
+		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h">
 			<Option target="algcpp"/>
 		</Unit>
 		<Unit filename="/home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h">

@@ -9,13 +9,14 @@
 
 #include "cstdio"
 
-class InsertSort : public Sort {
+template<class T>
+class InsertSort : public Sort<T> {
 protected:
-    std::string name() override {
+    const char *name() override {
         return "InsertSort";
     }
 
-    void sort(int *arr, int n) override {
+    void sort(T *arr, int n) override {
         int key, temp;
         for (int i = 0; i < n - 1; ++i) {
             key = i + 1;

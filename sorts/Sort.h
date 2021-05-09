@@ -5,43 +5,18 @@
 #ifndef ALGCPP_SORT_H
 #define ALGCPP_SORT_H
 
-#include <cstdlib>
-#include <cstdio>
-
 #include "../Algorithm.h"
+#include "../Array.h"
 
-struct SortArg {
-    int* array;
-    int size;
-
-    SortArg(int* arr, int n) {
-        array = arr;
-        size = n;
-    }
-
-    SortArg(int size, int min, int max) {
-        this->size = size;
-        array = new int[size];
-        int diff = max - min + 1;
-        for(int i = 0; i < size; ++i)
-            array[i] = std::rand() % diff + min;
-    }
-};
-
-class Sort : public Algorithm<SortArg> {
+template<class T>
+class Sort : public Algorithm<Array<T>> {
 protected:
-    virtual void sort(int *arr, int n) = 0;
+    virtual void sort(T *arr, int n) = 0;
 
-    void printArray(SortArg arg) {
-        for(int i = 0; i < arg.size; ++i)
-            printf("%d ", arg.array[i]);
-        printf("\n");
-    }
-
-    void run(SortArg arg) {
-        printArray(arg);
-        sort(arg.array, arg.size);
-        printArray(arg);
+    void run(Array<T> *arg) {
+        arg->print();
+        sort(arg->array, arg->size);
+        arg->print();
     }
 };
 

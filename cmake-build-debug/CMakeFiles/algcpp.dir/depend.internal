@@ -3,7 +3,13 @@
 
 CMakeFiles/algcpp.dir/main.cpp.o
  /home/eldarian/CLionProjects/algcpp/Algorithm.h
+ /home/eldarian/CLionProjects/algcpp/Array.h
+ /home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+ /home/eldarian/CLionProjects/algcpp/automatas/Conductor.h
+ /home/eldarian/CLionProjects/algcpp/automatas/Even.h
  /home/eldarian/CLionProjects/algcpp/main.cpp
+ /home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h
+ /home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
  /home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
  /home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
  /home/eldarian/CLionProjects/algcpp/sorts/Sort.h
