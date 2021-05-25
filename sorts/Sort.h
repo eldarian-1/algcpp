@@ -13,7 +13,7 @@ class Sort : public Algorithm<Array<T>> {
 protected:
     virtual void sort(T *arr, int n) = 0;
 
-    void run(Array<T> *arg) {
+    void run(Array<T> *arg) override {
         arg->print();
         sort(arg->array, arg->size);
         arg->print();

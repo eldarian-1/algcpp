@@ -3,6 +3,7 @@
 
 CMakeFiles/algcpp.dir/main.cpp.o: ../Algorithm.h
 CMakeFiles/algcpp.dir/main.cpp.o: ../Array.h
+CMakeFiles/algcpp.dir/main.cpp.o: ../EratostheneSieve.h
 CMakeFiles/algcpp.dir/main.cpp.o: ../automatas/Automata.h
 CMakeFiles/algcpp.dir/main.cpp.o: ../automatas/Conductor.h
 CMakeFiles/algcpp.dir/main.cpp.o: ../automatas/Even.h
