@@ -26,7 +26,7 @@ void automataTest() {
 }
 
 void eratostheneTest() {
-    BeginEnd arg(0, 1000);
+    BeginEnd arg(2, 101);
     EratostheneSieve().execute(&arg);
 }
 

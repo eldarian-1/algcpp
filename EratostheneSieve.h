@@ -30,10 +30,12 @@ private:
 
     int fill(bool *arr, int n) {
         int o = 0;
-        for(int i = 2; i < n + 2; ++i) {
-            if(arr[i - 2]) {
-                for(int j = 2 * i; j < n + 2; j += i) {
-                    arr[j - 2] = false;
+        for(int i = 2; i < n; ++i) {
+            if(arr[i]) {
+                for(int j = i * i; j < n; j += i) {
+                    if(j <= 0)
+                        break;
+                    arr[j] = false;
                     ++o;
                 }
             }
@@ -43,9 +45,9 @@ private:
 
     void print(bool *arr, int begin, int end, int o) {
         std::cout << "Operations: " << o << "\n";
-        for(int i = begin - 2; i < end; ++i) {
+        for(int i = begin; i < end; ++i) {
             if(arr[i]) {
-                std::cout << (i + 2) << " ";
+                std::cout << i << " ";
             }
         }
         std::cout << "\n";
@@ -57,9 +59,9 @@ protected:
     }
 
     void run(BeginEnd *arg) override {
-        bool *arr = create(arg->end - 1);
-        int o = fill(arr, arg->end - 1);
-        print(arr, arg->begin, arg->end - 1, o);
+        bool *arr = create(arg->end + 1);
+        int o = fill(arr, arg->end + 1);
+        print(arr, arg->begin, arg->end + 1, o);
     }
 
 };
