@@ -7,6 +7,7 @@
 #include "automatas/Conductor.h"
 #include "automatas/Even.h"
 #include "EratostheneSieve.h"
+#include "FractionOperations.h"
 
 void sortTest() {
     int size = 100, min = -100, max = 100;
@@ -30,9 +31,15 @@ void eratostheneTest() {
     EratostheneSieve().execute(&arg);
 }
 
+void fractionTest() {
+    FractionArg arg("5 8/9", '-', "6 7/9");
+    FractionOperations().execute(&arg);
+}
+
 int main() {
     sortTest();
     automataTest();
     eratostheneTest();
+    fractionTest();
     return 0;
 }

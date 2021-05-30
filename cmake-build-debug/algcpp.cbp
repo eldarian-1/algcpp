@@ -91,6 +91,9 @@
 		<Unit filename="/home/eldarian/CLionProjects/algcpp/EratostheneSieve.h">
 			<Option target="algcpp"/>
 		</Unit>
+		<Unit filename="/home/eldarian/CLionProjects/algcpp/FractionOperations.h">
+			<Option target="algcpp"/>
+		</Unit>
 		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Automata.h">
 			<Option target="algcpp"/>
 		</Unit>

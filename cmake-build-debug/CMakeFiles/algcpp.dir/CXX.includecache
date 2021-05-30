@@ -20,6 +20,18 @@ randomizers/Randomizer.h
 Algorithm.h
 /home/eldarian/CLionProjects/algcpp/Algorithm.h
 
+/home/eldarian/CLionProjects/algcpp/FractionOperations.h
+string
+-
+iostream
+-
+regex
+-
+cstdlib
+-
+Algorithm.h
+/home/eldarian/CLionProjects/algcpp/Algorithm.h
+
 /home/eldarian/CLionProjects/algcpp/automatas/Automata.h
 
 /home/eldarian/CLionProjects/algcpp/automatas/Conductor.h
@@ -47,6 +59,8 @@ automatas/Even.h
 /home/eldarian/CLionProjects/algcpp/automatas/Even.h
 EratostheneSieve.h
 /home/eldarian/CLionProjects/algcpp/EratostheneSieve.h
+FractionOperations.h
+/home/eldarian/CLionProjects/algcpp/FractionOperations.h
 
 /home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h
 Randomizer.h
