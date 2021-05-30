@@ -32,7 +32,7 @@ void eratostheneTest() {
 }
 
 void fractionTest() {
-    FractionArg arg("5 8/9", '-', "6 7/9");
+    FractionArg arg("5 8/9", '/', "-6 7/9");
     FractionOperations().execute(&arg);
 }
 
