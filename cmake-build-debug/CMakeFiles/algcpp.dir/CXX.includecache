@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/eldarian/CLionProjects/algcpp/Algorithm.h
+/home/eldarian/Документы/algcpp/Algorithm.h
 cstdio
 -
 
-/home/eldarian/CLionProjects/algcpp/Array.h
+/home/eldarian/Документы/algcpp/Array.h
 iostream
 -
 randomizers/Randomizer.h
-/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
+/home/eldarian/Документы/algcpp/randomizers/Randomizer.h
 
-/home/eldarian/CLionProjects/algcpp/EratostheneSieve.h
+/home/eldarian/Документы/algcpp/EratostheneSieve.h
 Algorithm.h
-/home/eldarian/CLionProjects/algcpp/Algorithm.h
+/home/eldarian/Документы/algcpp/Algorithm.h
 
-/home/eldarian/CLionProjects/algcpp/FractionOperations.h
+/home/eldarian/Документы/algcpp/FractionOperations.h
 string
 -
 iostream
@@ -30,57 +30,57 @@ regex
 cstdlib
 -
 Algorithm.h
-/home/eldarian/CLionProjects/algcpp/Algorithm.h
+/home/eldarian/Документы/algcpp/Algorithm.h
 
-/home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+/home/eldarian/Документы/algcpp/automatas/Automata.h
 
-/home/eldarian/CLionProjects/algcpp/automatas/Conductor.h
+/home/eldarian/Документы/algcpp/automatas/Conductor.h
 Automata.h
-/home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+/home/eldarian/Документы/algcpp/automatas/Automata.h
 
-/home/eldarian/CLionProjects/algcpp/automatas/Even.h
+/home/eldarian/Документы/algcpp/automatas/Even.h
 Automata.h
-/home/eldarian/CLionProjects/algcpp/automatas/Automata.h
+/home/eldarian/Документы/algcpp/automatas/Automata.h
 
-/home/eldarian/CLionProjects/algcpp/main.cpp
+/home/eldarian/Документы/algcpp/main.cpp
 cstdio
 -
 Array.h
-/home/eldarian/CLionProjects/algcpp/Array.h
+/home/eldarian/Документы/algcpp/Array.h
 randomizers/IntRandomizer.h
-/home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h
+/home/eldarian/Документы/algcpp/randomizers/IntRandomizer.h
 sorts/InsertSort.h
-/home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
+/home/eldarian/Документы/algcpp/sorts/InsertSort.h
 sorts/MergeSort.h
-/home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
+/home/eldarian/Документы/algcpp/sorts/MergeSort.h
 automatas/Conductor.h
-/home/eldarian/CLionProjects/algcpp/automatas/Conductor.h
+/home/eldarian/Документы/algcpp/automatas/Conductor.h
 automatas/Even.h
-/home/eldarian/CLionProjects/algcpp/automatas/Even.h
+/home/eldarian/Документы/algcpp/automatas/Even.h
 EratostheneSieve.h
-/home/eldarian/CLionProjects/algcpp/EratostheneSieve.h
+/home/eldarian/Документы/algcpp/EratostheneSieve.h
 FractionOperations.h
-/home/eldarian/CLionProjects/algcpp/FractionOperations.h
+/home/eldarian/Документы/algcpp/FractionOperations.h
 
-/home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h
+/home/eldarian/Документы/algcpp/randomizers/IntRandomizer.h
 Randomizer.h
-/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
+/home/eldarian/Документы/algcpp/randomizers/Randomizer.h
 cstdlib
 -
 
-/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h
+/home/eldarian/Документы/algcpp/randomizers/Randomizer.h
 
-/home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h
+/home/eldarian/Документы/algcpp/sorts/InsertSort.h
 Sort.h
-/home/eldarian/CLionProjects/algcpp/sorts/Sort.h
+/home/eldarian/Документы/algcpp/sorts/Sort.h
 cstdio
-/home/eldarian/CLionProjects/algcpp/sorts/cstdio
+/home/eldarian/Документы/algcpp/sorts/cstdio
 
-/home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h
+/home/eldarian/Документы/algcpp/sorts/MergeSort.h
 
-/home/eldarian/CLionProjects/algcpp/sorts/Sort.h
+/home/eldarian/Документы/algcpp/sorts/Sort.h
 ../Algorithm.h
-/home/eldarian/CLionProjects/algcpp/Algorithm.h
+/home/eldarian/Документы/algcpp/Algorithm.h
 ../Array.h
-/home/eldarian/CLionProjects/algcpp/Array.h
+/home/eldarian/Документы/algcpp/Array.h
 

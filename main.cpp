@@ -12,7 +12,7 @@
 void sortTest() {
     int size = 100, min = -100, max = 100;
     Randomizer<int> *randomizer = new IntRandomizer(min, max);
-    Array<int> *arg = new Array(size, randomizer);
+    Array<int> *arg = new Array<int>(size, randomizer);
     InsertSort<int>().execute(new Array(*arg));
     MergeSort<int>().execute(new Array(*arg));
 }

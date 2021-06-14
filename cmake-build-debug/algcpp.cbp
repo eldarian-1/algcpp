@@ -8,120 +8,122 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/eldarian/CLionProjects/algcpp/cmake-build-debug"/>
+				<Option working_dir="/home/eldarian/Документы/algcpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/eldarian/CLionProjects/algcpp/cmake-build-debug"/>
+				<Option working_dir="/home/eldarian/Документы/algcpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/eldarian/CLionProjects/algcpp/cmake-build-debug"/>
+				<Option working_dir="/home/eldarian/Документы/algcpp/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="algcpp">
-				<Option output="/home/eldarian/CLionProjects/algcpp/cmake-build-debug/algcpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/eldarian/CLionProjects/algcpp/cmake-build-debug"/>
+				<Option output="/home/eldarian/Документы/algcpp/cmake-build-debug/algcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eldarian/Документы/algcpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 algcpp"/>
-					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 algcpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="algcpp/fast">
-				<Option output="/home/eldarian/CLionProjects/algcpp/cmake-build-debug/algcpp" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/eldarian/CLionProjects/algcpp/cmake-build-debug"/>
+				<Option output="/home/eldarian/Документы/algcpp/cmake-build-debug/algcpp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/eldarian/Документы/algcpp/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/10"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
-					<Add directory="/usr/include/c++/10/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 algcpp/fast"/>
-					<CompileFile command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j24 -f &quot;/home/eldarian/CLionProjects/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 algcpp/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/eldarian/Документы/algcpp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/Algorithm.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/Algorithm.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/Array.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/Array.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/EratostheneSieve.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/EratostheneSieve.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/FractionOperations.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/FractionOperations.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Automata.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/automatas/Automata.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Conductor.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/automatas/Conductor.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/automatas/Even.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/automatas/Even.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/main.cpp">
+		<Unit filename="/home/eldarian/Документы/algcpp/main.cpp">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/randomizers/IntRandomizer.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/randomizers/IntRandomizer.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/randomizers/Randomizer.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/randomizers/Randomizer.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/sorts/InsertSort.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/sorts/InsertSort.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/sorts/MergeSort.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/sorts/MergeSort.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/sorts/Sort.h">
+		<Unit filename="/home/eldarian/Документы/algcpp/sorts/Sort.h">
 			<Option target="algcpp"/>
 		</Unit>
-		<Unit filename="/home/eldarian/CLionProjects/algcpp/CMakeLists.txt">
+		<Unit filename="/home/eldarian/Документы/algcpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
