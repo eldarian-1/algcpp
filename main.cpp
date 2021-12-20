@@ -9,6 +9,7 @@
 #include "automatas/Even.h"
 #include "EratostheneSieve.h"
 #include "FractionOperations.h"
+#include "Fibonachi.h"
 
 void sortTest() {
     int size = 100, min = -100, max = 100;
@@ -38,10 +39,20 @@ void fractionTest() {
     FractionOperations().execute(&arg);
 }
 
+void fibonachiTest() {
+    FibonachiArg a = {13, FibonachiType::RECURSION};
+    FibonachiArg b = {13, FibonachiType::TAIL};
+    FibonachiArg c = {13, FibonachiType::DYNAMIC};
+    Fibonachi().execute(&a);
+    Fibonachi().execute(&b);
+    Fibonachi().execute(&c);
+}
+
 int main() {
     sortTest();
     automataTest();
     eratostheneTest();
     fractionTest();
+    fibonachiTest();
     return 0;
 }
