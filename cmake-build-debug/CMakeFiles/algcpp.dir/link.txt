@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/algcpp.dir/main.cpp.o -o algcpp 

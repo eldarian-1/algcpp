@@ -1,3 +1,0 @@
-/home/eldarian/Документы/algcpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/eldarian/Документы/algcpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/eldarian/Документы/algcpp/cmake-build-debug/CMakeFiles/algcpp.dir
