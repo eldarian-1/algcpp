@@ -9,6 +9,7 @@
 #include <iostream>
 #include <regex>
 #include <cstdlib>
+#include <algorithm>
 
 #include "Algorithm.h"
 
@@ -88,14 +89,15 @@ private:
     }
 
     long long gcf(long long a, long long b) {
-        a = abs(a);
+        return std::__gcd(a, b);
+        /*a = abs(a);
         b = abs(b);
         while(a != 0 && b != 0)
             if(a > b)
                 a %= b;
             else
                 b %= a;
-        return a + b;
+        return a + b;*/
     }
 
     void calculate(const Fraction &left, const Fraction &right, const char &operation, Fraction *result) {
